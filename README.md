@@ -274,8 +274,3 @@ This project is developed for educational and research purposes as part of MTech
 - **ACO Algorithm**: Ant Colony Optimization for feature selection
 
 ---
-
-**Project Status**: ✅ Complete and Successfully Executed  
-**Last Updated**: December 2024  
-**Version**: 2.0 (ACO+DT Implementation)  
-**Academic Program**: MTech AI & Data Science
