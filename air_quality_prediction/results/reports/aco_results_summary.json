@@ -1,0 +1,58 @@
+{
+  "model_comparison": {
+    "aco_dt_single": {
+      "rmse": 20.963933097823755,
+      "mae": 14.15796657744916,
+      "r2": 0.9537369769121583,
+      "custom_accuracy": 90.48969105293277,
+      "features_used": 8
+    },
+    "aco_dt_ensemble": {
+      "rmse": 11.68744754565002,
+      "mae": 6.059864414724506,
+      "r2": 0.9856210283334184,
+      "custom_accuracy": 95.92941666826901,
+      "features_used": 8
+    },
+    "random_forest": {
+      "rmse": 6.87913520953015,
+      "mae": 1.9511729110552407,
+      "r2": 0.9950185454793135,
+      "custom_accuracy": 98.68934164438272,
+      "features_used": 48
+    }
+  },
+  "feature_selection": {
+    "total_features": 48,
+    "selected_features": 8,
+    "feature_reduction_percent": 83.33333333333334,
+    "policy_controllable_selected": 8,
+    "selected_feature_list": [
+      "PM10_concentration",
+      "NO2_concentration",
+      "O3_concentration",
+      "PM2.5_concentration",
+      "CO_concentration",
+      "PM10_avg3",
+      "PM2.5_lag1",
+      "PM2.5_avg3"
+    ]
+  },
+  "performance_difference": {
+    "aco_dt_single": {
+      "rmse_difference": 14.084797888293604,
+      "rmse_difference_percent": 204.74663543145573,
+      "within_5_percent_target": false
+    },
+    "aco_dt_ensemble": {
+      "rmse_difference": 4.80831233611987,
+      "rmse_difference_percent": 69.89704649878921,
+      "within_5_percent_target": false
+    },
+    "best_aco_model": {
+      "model_type": "Ensemble DT",
+      "best_rmse": 11.68744754565002,
+      "target_achieved": false
+    }
+  }
+}
