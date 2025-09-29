@@ -190,13 +190,6 @@ python src/visualization.py
 - **Reports**: Technical analysis in `results/reports/`
 - **Processed Data**: All intermediate datasets in `data/processed/` and `data/features/`
 
-## Contributing
-
-1. Follow PEP-8 coding standards
-2. Add docstrings to all functions and classes
-3. Include type hints for function arguments
-4. Test all changes before committing
-
 ## License
 
 This project is for academic purposes as part of MTech AI & Data Science program.
