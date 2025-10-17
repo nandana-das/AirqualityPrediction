@@ -1,22 +1,22 @@
 {
   "model_comparison": {
     "aco_dt_single": {
-      "rmse": 20.963933097823755,
-      "mae": 14.15796657744916,
-      "r2": 0.9537369769121583,
-      "custom_accuracy": 90.48969105293277,
+      "rmse": 21.856461505533584,
+      "mae": 11.452825962107916,
+      "r2": 0.9497138735423025,
+      "custom_accuracy": 92.30681096605167,
       "features_used": 8
     },
     "aco_dt_ensemble": {
-      "rmse": 11.68744754565002,
-      "mae": 6.059864414724506,
-      "r2": 0.9856210283334184,
-      "custom_accuracy": 95.92941666826901,
+      "rmse": 12.086518762544696,
+      "mae": 5.7917015379205745,
+      "r2": 0.9846223157388668,
+      "custom_accuracy": 96.10954930190596,
       "features_used": 8
     },
     "random_forest": {
       "rmse": 6.87913520953015,
-      "mae": 1.9511729110552407,
+      "mae": 1.9511729110552416,
       "r2": 0.9950185454793135,
       "custom_accuracy": 98.68934164438272,
       "features_used": 48
@@ -28,30 +28,30 @@
     "feature_reduction_percent": 83.33333333333334,
     "policy_controllable_selected": 8,
     "selected_feature_list": [
+      "PM2.5_lag1",
       "PM10_concentration",
       "NO2_concentration",
       "O3_concentration",
       "PM2.5_concentration",
       "CO_concentration",
       "PM10_avg3",
-      "PM2.5_lag1",
       "PM2.5_avg3"
     ]
   },
   "performance_difference": {
     "aco_dt_single": {
-      "rmse_difference": 14.084797888293604,
-      "rmse_difference_percent": 204.74663543145573,
+      "rmse_difference": 14.977326296003433,
+      "rmse_difference_percent": 217.72106289253173,
       "within_5_percent_target": false
     },
     "aco_dt_ensemble": {
-      "rmse_difference": 4.80831233611987,
-      "rmse_difference_percent": 69.89704649878921,
+      "rmse_difference": 5.207383553014545,
+      "rmse_difference_percent": 75.69822941988973,
       "within_5_percent_target": false
     },
     "best_aco_model": {
       "model_type": "Ensemble DT",
-      "best_rmse": 11.68744754565002,
+      "best_rmse": 12.086518762544696,
       "target_achieved": false
     }
   }
